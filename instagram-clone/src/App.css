@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app_header {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain; /* This is for the image to fit in the header and so it does not stretch */
+  background: white;
+}

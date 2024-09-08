@@ -1,0 +1,31 @@
+.post {
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+
+.post_image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.post_text {
+    font-weight: normal;
+}
+
+.post_header {
+    display: flex; /* This is to make the header items align horizontally and by default for flex it throws it in a row*/
+    align-items: center; /* This is to make the items align vertically */
+    padding:10px;
+}
+
+.post_avatar {
+    margin-right: 10px;
+}
+
+.post_text {
+    padding: 10px;
+}
